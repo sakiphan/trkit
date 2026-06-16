@@ -1,5 +1,6 @@
 # trkit
 
+[![CI](https://github.com/sakiphan/trkit/actions/workflows/ci.yml/badge.svg)](https://github.com/sakiphan/trkit/actions/workflows/ci.yml)
 [![Go Reference](https://pkg.go.dev/badge/github.com/sakiphan/trkit.svg)](https://pkg.go.dev/github.com/sakiphan/trkit)
 [![Go Report Card](https://goreportcard.com/badge/github.com/sakiphan/trkit)](https://goreportcard.com/report/github.com/sakiphan/trkit)
 
