@@ -13,9 +13,9 @@ func TestValidTCKN(t *testing.T) {
 		{"10000000832", true},
 		{"19191919190", true},
 		{"11111111110", true},
-		{"00000000000", false}, // first digit 0
-		{"12345678901", false}, // bad check digit
-		{"1000000083", false},  // 10 digits
+		{"00000000000", false},  // first digit 0
+		{"12345678901", false},  // bad check digit
+		{"1000000083", false},   // 10 digits
 		{"100000008320", false}, // 12 digits
 		{"1000000083a", false},  // non-digit
 		{"", false},

@@ -13,9 +13,9 @@ func TestValid(t *testing.T) {
 		{"TR330006100519786457841326", true},
 		{"TR33 0006 1005 1978 6457 8413 26", true},
 		{"tr330006100519786457841326", true},
-		{"TR340006100519786457841326", false}, // bad checksum
-		{"DE89370400440532013000", false},     // wrong country
-		{"TR33000610051978645784132", false},  // too short
+		{"TR340006100519786457841326", false},  // bad checksum
+		{"DE89370400440532013000", false},      // wrong country
+		{"TR33000610051978645784132", false},   // too short
 		{"TR3300061005197864578413266", false}, // too long
 		{"TR3300061005197864578413X6", false},  // non-digit body
 		{"", false},
